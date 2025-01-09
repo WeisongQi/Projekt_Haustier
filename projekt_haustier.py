@@ -17,7 +17,6 @@ class Haustier:
 
     def feed(self):
         if self.energy_level < 100:
-
             f = input(
                 f"Bitte wählen Sie das Futter ({self.lieblingsessen} oder {self.food}) für {self.tierart} - {self.nameDesHaustier} : "
             )
